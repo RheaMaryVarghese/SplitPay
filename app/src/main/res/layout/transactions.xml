@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+
+    <TextView
+        android:id="@+id/transactions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="24dp"
+        android:text="Transactions"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="389dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/line" />
+
+    <Button
+        android:id="@+id/lent_button"
+        android:layout_width="109dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="296dp"
+        android:layout_marginBottom="4dp"
+        android:text="You Lent"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:backgroundTint="#D86FEA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/owe_button"
+        android:layout_width="109dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginBottom="4dp"
+        android:text="You Owe"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:backgroundTint="#D86FEA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Refresh_button"
+        android:layout_width="113dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="8dp"
+        android:text="Refresh"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:backgroundTint="#D86FEA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Back_button"
+        android:layout_width="94dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="660dp"
+        android:text="Back"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:backgroundTint="#D86FEA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linear_layout2"
+        android:layout_width="418dp"
+        android:layout_height="309dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="332dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
